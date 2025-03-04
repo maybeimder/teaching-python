@@ -60,13 +60,21 @@ lista[0] = 100 # Establece el elemento en la posicion 0 como 100
 lista.append(6) # Agrega el 6 a la lista
 
 
+
 #* Tuplas (tuple) → Colección ordenada, pero INMODIFICABLE.
 tupla : tuple = (10, 20, 30)
-# tupla[0] = 100  ❌ ERROR: Las tuplas no se pueden modificar.
-print(tupla)     # ▶️ (10, 20, 30)
 
-# 🔵 Conjuntos (set) → Colección NO ordenada, SIN elementos duplicados.
+# ! NO se puede modificar un valor
+tupla[0] = 100  # Las tuplas NO se pueden modificar.
+
+
+
+#* Conjuntos (set) → Colección NO ordenada, SIN elementos duplicados.
 conjunto : set = {1, 2, 3, 3, 4, 4}
-print(conjunto)  # ▶️ {1, 2, 3, 4} (Python elimina los duplicados)
+# Python elimina los duplicados automaticamente
+
+# ? Agregar un elemento
 conjunto.add(5)  # Agregar un nuevo elemento
-print(conjunto)  # ▶️ {1, 2, 3, 4, 5}
+
+# =================================================================================================================
+

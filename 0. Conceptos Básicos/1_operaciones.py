@@ -39,17 +39,14 @@
 # =================================================================================================================
 
 '''
-    ==== [ OPERADORES RELACIONALES ] =====================================================================
-    Son expresiones que te permiten comparar uno o mas elementos, responden con verdadero o falso
+    ==== [ OPERADORES LOGICOS ] =====================================================================
+    Se utiliza un operador lógico para tomar una decisión basada en múltiples condiciones.
     ======================================================================================================
 
-#?   OPERADOR  :   OPERACION     :    EJEMPLO
-#       >         Mayor que          '4 > 2 = True'
-#       <         Menor que          '4 < 2 = False'
-#       ==        Igual              '4 == 2= False'
-#       >=        Mayor igual        '4 >= 4= True'
-#       <=        Menor igual        '4 <= 4= True'
-#'      !=        Diferente de       '4 != 4= False'
+#?   OPERADOR  :                OPERACION                        :    EJEMPLO
+#      and           Devuelve True si ambos operandos son True       'a and b '
+#      or            Devuelve True si al menos uno es True           'a or b  '
+#      not           Invierte el valor booleano de una expresion     'not a   '
 '''
 
 # =================================================================================================================
